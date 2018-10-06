@@ -3,15 +3,11 @@
 
 interface Adapter
 {
-
     public function sent();
-
 }
 
 class BraintreeAdapter implements Adapter
 {
-
-    //some members or attributes here
 
     public function sent()
     {
@@ -20,17 +16,14 @@ class BraintreeAdapter implements Adapter
     }
 }
 
-
 class PayflowAdapter implements Adapter
 {
-
     public function sent()
     {
         echo('send data tp payflow');
         // TODO: Implement sent() method.
     }
 }
-
 
 class Payment
 {
@@ -58,5 +51,4 @@ class Payment
 }
 
 $test = new Payment('visa');
-
 $test->doPayment();

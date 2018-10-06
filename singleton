@@ -1,0 +1,29 @@
+<?php
+
+
+class Singleton
+{
+
+    private static $singleton = null;
+
+
+    private function __construct()
+    {
+    }
+
+    public static function myConnection()
+    {
+        if (!static::$singleton) {
+
+            echo('was unset'.PHP_EOL);
+            return static::$singleton = new Singleton();
+        }
+        echo('not null');
+        return static::$singleton;
+    }
+}
+
+
+$mySingleton = Singleton::myConnection();
+
+$mySingleton2 = Singleton::myConnection();
