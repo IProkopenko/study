@@ -27,18 +27,12 @@ class CountryFactory
         if ($country == null) {
             throw new Exception('Please provide country code');
         }
-        if ($country == 'Australia') {
 
-            return new Australia();
-        }
-        if ($country == 'Norway') {
-
-            return new Norway();
-        }
+        return new $country;
     }
 }
 
 //$myBills = CountryFactory::createBill();
 
-echo CountryFactory::createBill('Norway')::CONSTANT;
+echo CountryFactory::createBill('Australia')::CONSTANT;
 
