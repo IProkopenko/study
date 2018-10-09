@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d0f9195-f902-4932-b14e-4823676cd140" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter.php" beforeDir="false" afterPath="$PROJECT_DIR$/adapter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory.php" beforeDir="false" afterPath="$PROJECT_DIR$/factory.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,33 +33,33 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="501" />
+          <entry key="php" value="930" />
           <entry key="singleton" value="249" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="750" />
+          <entry key="PHP" value="1179" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/singleton">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+            <state relative-caret-position="405">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/factory.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+            <state relative-caret-position="461">
+              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
             </state>
           </provider>
         </entry>
@@ -82,6 +83,7 @@
       <list>
         <option value="$PROJECT_DIR$/adapter.php" />
         <option value="$PROJECT_DIR$/singleton" />
+        <option value="$PROJECT_DIR$/factory.php" />
       </list>
     </option>
   </component>
@@ -135,8 +137,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.singleton">
+  <component name="RunManager" selected="PHP Script.factory.php">
     <configuration name="adapter.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/adapter.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="factory.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/factory.php">
       <method v="2" />
     </configuration>
     <configuration name="singleton" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/singleton">
@@ -145,9 +150,11 @@
     <list>
       <item itemvalue="PHP Script.adapter.php" />
       <item itemvalue="PHP Script.singleton" />
+      <item itemvalue="PHP Script.factory.php" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.factory.php" />
         <item itemvalue="PHP Script.singleton" />
         <item itemvalue="PHP Script.adapter.php" />
       </list>
@@ -163,19 +170,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1538785564772</updated>
-      <workItem from="1538785566224" duration="2854000" />
+      <workItem from="1538785566224" duration="5727000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2854000" />
+    <option name="totallyTimeSpent" value="5727000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="8" y="23" width="1568" height="970" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24967235" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22542594" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -202,13 +209,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/factory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/adapter.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
@@ -218,8 +218,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/singleton">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        <state relative-caret-position="405">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
     </entry>
