@@ -6,7 +6,7 @@ class SomeClass
 
     public function doSomething()
     {
-    //blabla
+        // Do something.
     }
 }
 
