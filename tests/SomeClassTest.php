@@ -25,7 +25,6 @@ class StubTest extends TestCase
         $mock->method('runPayment')
             ->willReturn(true);
 
-
         // Calling $stub->doSomething() will now return
         // 'foo'.
         $this->assertEquals(true, $mock->runPayment());
