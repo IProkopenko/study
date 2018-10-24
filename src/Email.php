@@ -3,6 +3,10 @@ declare(strict_types=1);
 
 namespace foo;
 
+use InvalidArgumentException;
+
+class User{}
+
 final class Email
 {
     private $email;
@@ -26,6 +30,8 @@ final class Email
 
     private function ensureIsValidEmail(string $email): void
     {
+        $user = new User();
+
         if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
             throw new InvalidArgumentException(
                 sprintf(
