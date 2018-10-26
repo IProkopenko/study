@@ -15,12 +15,15 @@ class EmailTest extends TestCase
         );
     }
 
+
     public function testCannotBeCreatedFromInvalidEmailAddress(): void
     {
         $this->expectException(InvalidArgumentException::class);
 
+
         Email::fromString('invalid');
     }
+
 
     public function testCanBeUsedAsString(): void
     {

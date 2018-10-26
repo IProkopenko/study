@@ -27,7 +27,7 @@ class StubTest extends TestCase
         // $stub->doSomething() throws Exception
         $this->expectException(InvalidArgumentException::class);
 
-         new Exception()
+         new Exception();
         $stub->doSomething();
         $this->assertInstanceOf('some Object here', '$bla->createSomeObject()');
 
